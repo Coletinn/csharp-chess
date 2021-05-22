@@ -20,7 +20,7 @@ namespace xad
         private bool podeMover(Posicao pos)
         {
             Peca p = tab.peca(pos);
-            return p == null || cor != cor;
+            return p == null || p.cor != cor;
         }
 
         public override bool[,] movimentosPossiveis()
@@ -38,7 +38,7 @@ namespace xad
                 {
                     break;
                 }
-                pos.linha -= 1;
+                pos.linha = pos.linha - 1;
             }
 
             // abaixo
