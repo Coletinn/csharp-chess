@@ -7,4 +7,4 @@ peça.
 
 Chess game implementation in C# on console, made on Visual Studio.
 In this project, enumerations, classes, inheritance, public, private and protected methods, exceptions,
-overloading and other implementations, following the game rule and respecting each piece function.
+overloading and other implementations were used, following the game rule and respecting each piece function.
